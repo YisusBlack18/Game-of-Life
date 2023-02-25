@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 
-// Logica del Juego de la Vida
+// Logica del Juego de la Vida de John Conway
 // Autor:   Jesus Angel Juarez Zazueta
 
 public class gamelife {
@@ -56,7 +56,7 @@ public class gamelife {
                 // Se recorren las casillas(botones) una por una
                 for (int k = -1; k <= 1; k++) {
                     for (int k2 = -1; k2 <= 1; k2++) {
-                        // Cuenta las casillas vivas alrededor de la casilla actual dentro de los limites
+                        // Cuenta las casillas vivas alrededor de la casilla actual dentro de los limites de la matriz
                         if ((i+k>=0 && i+k<M) && (j+k2>=0 && j+k2<N)) {
                             if (tabla[i+k][j+k2].getBackground() == Color.YELLOW) {
                                 vivos++;

@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// Interfaz Grafica del Juego de la Vida
+// Interfaz Grafica del Juego de la Vida de John Conway
 // Autor:   Jesus Angel Juarez Zazueta
 
 public class display extends JFrame {
