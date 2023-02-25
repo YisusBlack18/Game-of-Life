@@ -9,8 +9,8 @@ import javax.swing.JButton;
 
 public class gamelife {
 
-    public static int M = 10;
-    public static int N = 10;
+    public static final int M = 10;
+    public static final int N = 10;
 
     // Inicia la interfaz grafica del programa
     public static void main(String[] args) {
