@@ -34,7 +34,7 @@ public class display extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         // Propiedades del titulo
-        label = new JLabel("Bienvenido al Juego de la Vida");
+        label = new JLabel("Bienvenido al Juego de la Vida de John Conway");
         label.setBounds(10,10,600,100);
         fuente = new Font("Comic Sans", Font.BOLD, 24);
         label.setFont(fuente);
